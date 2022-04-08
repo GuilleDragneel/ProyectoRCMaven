@@ -11,7 +11,7 @@ public interface IUsuarioModel {
 
     public void eliminarRegistro(Usuario usuario);
 
-    public List obtenerRegistros();
+    public List<Usuario> obtenerRegistros();
 
     public Usuario obtenerRegistro(int idUsuario);
 }
